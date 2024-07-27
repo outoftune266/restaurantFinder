@@ -7,11 +7,13 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider, createRoutesFromElements, Route, Router } from 'react-router-dom';
 
 import Map from "./components/map/map";
+import Form from './components/form/form';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={ <App /> }>
-      <Route path='map' element={<Map />} />
+      <Route path='search' element={<Map />} />
+      <Route path='share' element={<Form />} />
     </Route>
   )
 )

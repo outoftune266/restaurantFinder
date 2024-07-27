@@ -21,7 +21,7 @@ import React, { useRef, useEffect, useState } from 'react';
 
 export default function Map() {
     return (<div>
-        <h1>Map goes here</h1>
+        <h1>Map Goes Here</h1>
         {/* <div ref={mapContainer} className="map-container" /> */}
     </div>)
 };
